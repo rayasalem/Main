@@ -1,0 +1,23 @@
+
+.section-one {
+    position: relative;
+    text-align: center;
+}
+
+.section-one img {
+    width: 100%;
+}
+
+.section-one-content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: black;
+    width: 30vw;
+}
+
+.section-one-buttons {
+    position: absolute;
+    left: 0;
+}

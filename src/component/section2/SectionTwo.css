@@ -1,0 +1,35 @@
+.section-two {
+    position: relative;
+    height:30vh;
+}
+
+.section-two img {
+    width: 100%;
+}
+
+.section-content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    z-index: 1;
+    width:30vw;
+    height: 10vw;
+}
+
+
+.end-paragraphs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-paragraph {
+    width: calc(50% - 20px);
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    height: 10vw;
+    font-size: small;
+
+}
